@@ -1,10 +1,14 @@
 import React from "react";
-import NewProducts from "./NewProducts/NewProducts";
+import NewProductsItem from "./components/NewProducts/NewProductsItem";
+import MenuNewProducts from "./components/MenuNewProducts/MenuNewProducts";
+import ChooseUs from "./components/AboutUs/ChooseUs";
 
 const App = () => {
   return (
     <div className="App">
-         <NewProducts/>
+        <MenuNewProducts/>
+        <NewProductsItem/>
+        <ChooseUs/>
     </div>
   );
 }

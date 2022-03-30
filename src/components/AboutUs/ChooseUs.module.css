@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.us{
+    font-family: Roboto,serif;
+    color: #254F4C;
+    margin-left: 224px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
