@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from "../../media/Group.svg"
-import tel from"../../media/tel.svg"
-import styles from'./Footer.module.css'
+import tel from "../../media/tel.svg"
+import styles from './Footer.module.css'
 
 const Footer = () => {
     return (
         <div className={styles.footer}>
+
             <div className={styles.companyLogo}>
                 <div>
                     <img className={styles.key} src={logo}/>
@@ -31,6 +32,7 @@ const Footer = () => {
                     <p className={styles.number}>+996555500500</p>
                 </div>
             </div>
+
         </div>
     );
 };
