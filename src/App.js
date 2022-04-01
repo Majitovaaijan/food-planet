@@ -1,13 +1,24 @@
 import React from "react";
-import Header from './components/Header/Header'
+import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
-import './App.css'
-function App() {
+import NewProductsItem from "./components/NewProducts/NewProductsItem";
+import MenuNewProducts from "./components/MenuNewProducts/MenuNewProducts";
+import ChooseUs from "./components/AboutUs/ChooseUs";
+import Review from "./components/Review/Review";
+import Footer from "./components/Footer/Footer";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <Header/>
-      <Content/>
-    </div>
+      <div className="App">
+        <Header/>
+        <Content/>
+        <MenuNewProducts/>
+        <NewProductsItem/>
+        <ChooseUs/>
+        <Review/>
+        <Footer/>
+      </div>
   );
 }
 
