@@ -10,17 +10,19 @@ import "./App.css"
 
 
 const App = () => {
-  return (
-      <div className="container">
-        <Header/>
-        <Content/>
-        <MenuNewProducts/>
-        <NewProductsItem/>
-        <ChooseUs/>
-        <Review/>
-        <Footer/>
-      </div>
-  );
+    return (
+        <>
+            <div className="container">
+                <Header/>
+                <Content/>
+                <MenuNewProducts/>
+                <NewProductsItem/>
+                <ChooseUs/>
+                <Review/>
+            </div>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;
