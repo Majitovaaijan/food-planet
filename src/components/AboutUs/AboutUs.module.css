@@ -1,3 +1,4 @@
+
 .all{
     display: flex;
 }
@@ -6,7 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 89px;
     margin-right: 32px;
 }
 

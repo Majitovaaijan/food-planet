@@ -6,7 +6,7 @@ const NewProducts = (props) => {
     return (
             <div className={styles.burgers}>
                 <div className={styles.burger}>
-                    <img src={props.item.image}/>
+                    <img className={styles.burgerImage} src={props.item.image}/>
                     <p className={styles.cheeseburger}>{props.item.product}</p>
                     <p className={styles.composition}>{props.item.composition}</p>
                     <p className={styles.price}>{props.item.price}</p>

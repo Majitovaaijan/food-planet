@@ -1,0 +1,16 @@
+.userReview{
+    font-family: 'Roboto',serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    margin-left: 224px;
+}
+
+.userComments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
