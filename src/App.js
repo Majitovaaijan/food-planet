@@ -6,11 +6,12 @@ import MenuNewProducts from "./components/MenuNewProducts/MenuNewProducts";
 import ChooseUs from "./components/AboutUs/ChooseUs";
 import Review from "./components/Review/Review";
 import Footer from "./components/Footer/Footer";
+import "./App.css"
 
 
 const App = () => {
   return (
-      <div className="App">
+      <div className="container">
         <Header/>
         <Content/>
         <MenuNewProducts/>
