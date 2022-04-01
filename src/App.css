@@ -1,13 +1,7 @@
-body{
-    /*border: 3px solid red;*/
-    /*height: 100vh;*/
-    /*max-width: 1600px;*/
-    /*padding: 0 200px 0 200px;*/
-    /*margin: 0;*/
-}
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    border: 3px solid red;
 }

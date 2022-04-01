@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .content{
     display: flex;
-    justify-content: space-between;
     position: relative;
-    padding-top: 2rem;
+    border: 3px solid yellow;
+    height: 498px;
     font-family: 'Roboto', sans-serif;
 }
+
 .description{
-    font-weight: 900;
-    padding: 0 40px 0 40px;
-    margin-top: 144px
+    padding-top: 95px;
 }
 .delivery{
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
     color: #254F4C;
+    margin-bottom: 10px;
 }
 
 .delivery1{
@@ -26,33 +26,54 @@
     color: #1D3130;
 }
 
-.next{
+
+.go{
     width: 216px;
     height: 49px;
-    left: 200px;
+    border: none;
+    cursor: pointer;
     background: #FF583E;
     border-radius: 100px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    transition: .4s;
+}
+.go:hover{
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.btn{
+    position: relative;
+}
+.btn img{
+    position: relative;
+    width: 20px;
+    right: 2rem;
+    top: 6px;
 }
 
 
-
-.images{
-    display: flex;
-}
-
-.images img:nth-child(1){
+.price img{
+    width: 83px;
     position: absolute;
-    right: 7rem;
-    top: 6rem;
-    width: 400px;
+    right: 19.5rem;
+    top: 1.5rem;
+}
+.big img:nth-child(1){
+    position: absolute;
+    right: 90px;
+    bottom: 20px;
+    width: 540px;
+    height: 392px;
     z-index: 10;
 }
-.images img:nth-child(2){
-    width: 200px;
+.big img:nth-child(2){
+    width: 210px;
+    height: 395px;
     position: absolute;
-    right: 0;
+    right: -1.5rem;
+    top: 30px;
 }
