@@ -1,0 +1,32 @@
+.allMenu{
+    display: flex;
+    font-family: 'Roboto',serif;
+    margin-top: 49px;
+    width: 1152px;
+    margin-left: 24px;
+    border: 1px solid red;
+}
+
+.menu{
+    color: #254F4C;
+    font-weight: 900;
+    font-size: 25px;
+    height: 40px;
+    margin-top: -22px;
+    margin-right: 164px;
+}
+
+.PizzaMenu{
+    display: flex;
+}
+
+.PizzaMenu a{
+    align-items: center;
+    margin: 10px;
+    color: #1D3130;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 72px;
+    height: 32px;
+}
