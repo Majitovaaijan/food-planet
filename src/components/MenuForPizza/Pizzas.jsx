@@ -14,6 +14,12 @@ const Pizzas = () => {
     }
     return (
         <div className={s.pizzas}>
+            <div className={s.mainText}>
+                <p>Сортировать по:</p>
+                <select>
+                    <option value="">По умолчанию</option>
+                </select>
+            </div>
             <div className={s.eightPizzas}>
                 {pizzas.map(item => (
                     <div

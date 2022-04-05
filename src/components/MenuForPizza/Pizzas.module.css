@@ -1,3 +1,26 @@
+.mainText{
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    font-family: 'Roboto',serif;
+    margin-bottom: -40px;
+
+}
+.mainText p{
+    width: 136px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D3130;
+}
+
+.mainText select {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+}
+
 .pizzas{
     border: 1px solid red;
     width: 1152px;
@@ -17,7 +40,6 @@
 }
 .mapPizza {
     margin-bottom: 33px;
-    border: 1px solid blue;
     position: relative;
     height: 400px;
 
