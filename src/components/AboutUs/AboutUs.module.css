@@ -7,7 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 32px;
+    margin: 0 auto;
+
 }
 
 .fast{

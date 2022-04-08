@@ -1,6 +1,9 @@
 .parent{
      position: relative;
-     margin-right: 34px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
 }
 .pen{
      display: flex;

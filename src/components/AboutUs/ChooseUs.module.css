@@ -3,11 +3,14 @@
 .us{
     font-family: Roboto,serif;
     color: #254F4C;
-    margin-left: 224px;
+    margin-left: 30px;
 }
 
 .one{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1120px;
+
 }
