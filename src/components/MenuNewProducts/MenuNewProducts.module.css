@@ -13,7 +13,7 @@
 nav ul li{
     list-style: none;
     display: inline;
-    margin-right: 16px;
+    margin-right: 32px;
     font-family: Roboto, serif;
 }
 
@@ -30,10 +30,13 @@ a:hover{
 }
 
 .big{
-    font-size: 25px;
+    font-size: 28px;
     color: #254F4C;
     font-weight: 900;
-    margin-left: 224px;
+    margin-left: 32px;
+    margin-right: 164px;
+    font-family: Roboto, serif;
+    letter-spacing: 0.5px;
 }
 
 .drinks{
