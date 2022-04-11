@@ -16,7 +16,9 @@ nav ul li{
     margin-right: 16px;
     font-family: Roboto, serif;
 }
-
+.active{
+    color: red;
+}
 a{
     text-decoration: none;
     color: #1D3130;

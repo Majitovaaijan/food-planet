@@ -1,12 +1,17 @@
 .allMenu{
     display: flex;
     font-family: 'Roboto',serif;
+    align-items: center;
     margin-top: 49px;
     width: 1152px;
     margin-left: 24px;
     border: 1px solid red;
 }
-
+.lists{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 .menu{
     color: #254F4C;
     font-weight: 900;
