@@ -7,12 +7,12 @@ const Menu = () => {
         {
             name: 'Пицца',
             id: 0,
-            url: '/pizzas'
+            url: '/pizza'
         },
         {
             name: 'Бургер',
             id: 0,
-            url: "/sushi"
+            url: "/burger"
         },
         {
             name: 'Суши',
@@ -22,17 +22,22 @@ const Menu = () => {
         {
             name: 'Роллы',
             id: 0,
-            url: "/sushi"
+            url: "/roll"
         },
         {
             name: 'Салаты',
             id: 0,
-            url: "/sushi"
+            url: "/salad"
         },
         {
             name: 'Десерты',
             id: 0,
-            url: "/sushi"
+            url: "/desert"
+        },
+        {
+            name: 'Напитки',
+            id: 0,
+            url: "/drinks"
         }
 
     ]

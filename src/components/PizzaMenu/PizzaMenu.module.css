@@ -5,11 +5,10 @@
     margin-top: 49px;
     width: 1152px;
     margin-left: 24px;
-    border: 1px solid red;
 }
 .lists{
     display: flex;
-    gap: 1rem;
+    gap: 0;
     align-items: center;
 }
 .menu{
@@ -17,8 +16,8 @@
     font-weight: 900;
     font-size: 25px;
     height: 40px;
-    margin-top: -22px;
-    margin-right: 164px;
+    margin-top: -70px;
+    margin-right: 155px;
 }
 
 .PizzaMenu{

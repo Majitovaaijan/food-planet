@@ -24,10 +24,10 @@ const Basket = (props) => {
             ) : (
                 <div className={s.empty}>
                     <strong>
-                        Корзина пуста
+                        Ваша корзина пуста
                     </strong>
                     <NavLink to="/">
-                        <button>Добавьте что-нибудь</button>
+                        <button>Добавьте что-нибудь:)</button>
                     </NavLink>
                 </div>
                 )}

@@ -6,15 +6,15 @@
     padding: 0 2rem;
 }
 .mainText{
-    margin: 18px 0;
+    margin: 0 20px 30px 0;
     display: flex;
     justify-content: right;
-    height: 40px;
+    height: 50px;
     font-family: 'Roboto',serif;
 }
 .mainText p{
     width: 136px;
-    height: 40px;
+    height: 60px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -22,9 +22,12 @@
 }
 
 .mainText select {
+    padding: 0 20px 0 20px;
     font-size: 14px;
     height: 40px;
     border: 1px solid #C4C4C4;
+    outline: none;
+    font-family: 'Roboto',serif;
 }
 .show{
     width: 200px;

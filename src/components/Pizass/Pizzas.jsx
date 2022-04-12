@@ -2,13 +2,15 @@ import React, {useEffect, useState} from 'react';
 import s from './Pizzas.module.css'
 import PizzaBlock from '../PizzaBlock/PizzaBlock'
 
+
 const Pizzas = ({addToBasket}) => {
     const [pizzas, setPizzas] = useState([])
     useEffect(() => {
-        fetch('http://localhost:3000/db.json')
+        fetch('http://localhost:3001/pizzas')
             .then(response => response.json())
-            .then(data => setPizzas(data.pizzas))
+            .then(data => setPizzas(data))
     }, [])
+
     const [count, setCount] = useState(0)
     const addPizza = () => {
         setCount(count + 1)

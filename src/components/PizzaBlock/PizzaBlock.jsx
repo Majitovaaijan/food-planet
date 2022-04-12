@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import s from './PizzaBlock.module.css'
 
 const PizzaBlock = (props) => {
-    const {item, removePizza, addPizza, count, addToBasket, removeItemInBasket} = props
+    const {item, removePizza, addPizza, count, addToBasket} = props
     const toggleBtn = () => {
         addToBasket(item)
     }
@@ -24,7 +24,7 @@ const PizzaBlock = (props) => {
                         <p>{count}</p>
                         <button onClick={addPizza}>+</button>
                     </div>
-                    <button onClick={toggleBtn} className={s.btn}>Добавить в корзину</button>
+                    <button onClick={toggleBtn} className={s.btn}>В корзину</button>
                 </div>
             </div>
         </div>

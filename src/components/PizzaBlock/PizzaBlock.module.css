@@ -72,7 +72,7 @@
 .count{
     display: flex;
     justify-content: center;
-    margin-bottom: -4px;
+    margin-bottom: -8px;
 }
 
 .count p{
@@ -91,7 +91,6 @@
     cursor: pointer;
     color: #FF583E;
     font-size: xx-large;
-    border: none;
 }
 
 .btn{
