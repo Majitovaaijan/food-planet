@@ -1,6 +1,9 @@
 .parent{
      position: relative;
-     margin-right: 34px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
 }
 .pen{
      display: flex;
@@ -30,6 +33,11 @@
 .date{
      color: #3B7976;
      font-family: 'Roboto',serif;
+}
+
+.vector{
+     width: 85px;
+     height: 80px;
 }
 
 

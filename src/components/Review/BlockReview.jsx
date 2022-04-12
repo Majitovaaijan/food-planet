@@ -8,7 +8,7 @@ const BlockReview = (props) => {
         <div className={styles.parent} >
             <img src={img}/>
             <div className={styles.group}>
-                <img src={props.item.image}/>
+                <img className={styles.vector} src={props.item.image}/>
                 <div className={styles.pen}>
                     <p className={styles.userName}>{props.item.user}</p>
                    <img src={pen}/>

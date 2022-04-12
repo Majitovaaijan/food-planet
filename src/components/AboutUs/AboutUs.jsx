@@ -5,7 +5,7 @@ const AboutUs = (props) => {
     return (
         <div className={styles.all}>
             <div className={styles.about}>
-                <img src={props.item.image}/>
+                <img className={styles.rectangle} src={props.item.image}/>
                 <h2 className={styles.fast}>{props.item.title}</h2>
                 <p className={styles.aboutUs}>{props.item.subtitle}</p>
             </div>
