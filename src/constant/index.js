@@ -320,5 +320,5 @@ export const comments = [
         date: '02.07.2020'
     }
 ]
-
+export const BASE_URL = 'http://localhost:3000/'
 
