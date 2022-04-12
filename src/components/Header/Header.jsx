@@ -3,19 +3,20 @@ import logo from '../../media/icons/logo.svg'
 import call from '../../media/icons/call.svg'
 import basket from '../../media/icons/basket.svg'
 import s from './Header.module.css'
+import {NavLink} from "react-router-dom";
 
-const Header = () => {
+const Header = ({card}) => {
     return (
         <header className={s.menu}>
             <ul>
-                <div>
+                <NavLink to='/'>
                     <img className={s.logo} src={logo} alt=""/>
-                </div>
+                </NavLink>
                 <div className={s.names}>
                     <li>
-                        <a className={s.main} href="">
+                        <NavLink className={s.main} to="/">
                             Главная
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
                         <select className={s.menuHeader}>
@@ -29,26 +30,26 @@ const Header = () => {
                         </select>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/delivery">
                             Доставка
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/contacts">
                             Контакты
-                        </a>
+                        </NavLink>
                     </li>
                     <li className={s.call}>
-                        <a href="">
+                        <a href="tel:+996500405988">
                             <img src={call} alt=""/>
                             <p>+996500405988</p>
                         </a>
                     </li>
                     <li className={s.count}>
-                        <a href="">
+                        <NavLink to="/basket">
                             <img src={basket} alt=""/>
-                            <p>1</p>
-                        </a>
+                            <p>{card.length}</p>
+                        </NavLink>
                     </li>
                 </div>
             </ul>

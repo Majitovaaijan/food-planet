@@ -1,10 +1,13 @@
 .menu{
     border: 1px solid red;
+    position: fixed;
+    width: 1195px;
+    background-color: white;
+    z-index: 20;
+    margin-top: -6px;
 }
 
-
 .logo img{
-
     height: 40px;
 }
 .menu ul{
